@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.0.0",
+    "qr-image": "^3.2.0"
+  },
+  "name": "qrcodeproject",
+  "version": "1.0.0",
+  "description": "project for qr code generation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Psoiii",
+  "license": "ISC"
+}

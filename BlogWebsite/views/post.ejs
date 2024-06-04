@@ -1,0 +1,13 @@
+<%- include("header.ejs") %>
+    <% if (locals.postTitle && locals.postContent) { %>
+        <h1><%= postTitle %></h1>
+        <p><%= postContent %></p>
+    <% } else { %>
+        <h1>404 - Post not Found</h1>
+    <% } %>
+    
+
+
+
+
+<%- include("footer.ejs") %>
